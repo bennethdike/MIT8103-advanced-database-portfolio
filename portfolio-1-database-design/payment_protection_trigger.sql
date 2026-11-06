@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_protect_confirmed_payment BEFORE DELETE OR UPDATE ON public.payment FOR EACH ROW EXECUTE FUNCTION protect_confirmed_payment();
