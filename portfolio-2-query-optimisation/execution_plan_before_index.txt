@@ -1,0 +1,9 @@
+
+Seq Scan on reservation_performance_test  (cost=0.00..189.00 rows=10 width=22) (actual time=0.144..2.599 rows=10.00 loops=1)
+  Filter: (guest_id = 500)
+  Rows Removed by Filter: 9990
+  Buffers: shared hit=64
+Planning:
+  Buffers: shared hit=12
+Planning Time: 0.196 ms
+Execution Time: 2.627 ms
