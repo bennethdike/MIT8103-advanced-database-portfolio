@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6af25eace5d0633c155c31b2"
+  },
+  "reservation_id": 1,
+  "guest": {
+    "guest_id": 1,
+    "first_name": "John",
+    "last_name": "Okafor"
+  },
+  "room": {
+    "room_number": "101",
+    "room_type": "Standard",
+    "nightly_rate": 25000
+  },
+  "check_in_date": "2026-12-10",
+  "check_out_date": "2026-12-13",
+  "number_of_nights": 3,
+  "total_amount": 75000,
+  "reservation_status": "Confirmed",
+  "payment": {
+    "amount": 75000,
+    "payment_method": "Bank Transfer",
+    "payment_status": "Successful"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af2615fe5d0633c155c31b4"
+  },
+  "reservation_id": 2,
+  "guest": {
+    "guest_id": 2,
+    "first_name": "Ada",
+    "last_name": "Eze"
+  },
+  "room": {
+    "room_number": "201",
+    "room_type": "Deluxe",
+    "nightly_rate": 40000
+  },
+  "check_in_date": "2026-12-15",
+  "check_out_date": "2026-12-17",
+  "number_of_nights": 2,
+  "total_amount": 80000,
+  "reservation_status": "Cancelled",
+  "payment": {
+    "amount": 0,
+    "payment_method": null,
+    "payment_status": "Pending"
+  },
+  "cancellation_reason": "Guest requested cancellation"
+}]
